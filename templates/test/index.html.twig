@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    my titile
+{% endblock  %}
+{% block body %}
+    <h1>Hello Andrey</h1>
+    <h3>{{ some }}</h3>
+    <ul>
+        <li><a href="{{ path('page') }}">page</a></li>
+        <li><a href="{{ path('addSome') }}">addSome</a></li>
+    </ul>
+{% endblock  %}
